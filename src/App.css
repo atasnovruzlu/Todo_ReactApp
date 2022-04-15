@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background: linear-gradient(to right,burlywood,#eee);
+}
+input{
+    border: none !important;
+    border-bottom: 3px solid black !important;
+    background: transparent !important;
+}
+h1{
+    font-family: "Segoe Print";
+    margin:50px 0px !important;
+}
