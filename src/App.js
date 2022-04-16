@@ -37,7 +37,7 @@ function App() {
       <h1>Todo List</h1>
       <div className="row justify-content-center">
         <div className="col-md-9 d-flex lala">
-          <input value={newTask} type="text" placeholder={'taskname'} className={'form-control'}
+          <input value={newTask} type="text" placeholder={'taskName'} className={'form-control'}
             onChange={(e) => { setnewTask(e.target.value) }} />
           <button className={'btn btn-success btn-sm'} type={'submit'} onClick={addTask}>Add Task</button>
         </div>
